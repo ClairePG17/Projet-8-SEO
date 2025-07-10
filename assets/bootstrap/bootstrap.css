@@ -6054,9 +6054,9 @@ textarea.form-control-lg {
   padding: 0;
   color: #fff;
   text-align: center;
-  background: none;
+  background: black;
   border: 0;
-  opacity: 0.5;
+  opacity: 0.9;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -6090,6 +6090,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
+  background-color: transparent;
 }
 
 /* rtl:options: {
